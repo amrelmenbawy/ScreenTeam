@@ -8135,19 +8135,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahmed\\.nuget\\packages\\": {}
+    "C:\\Users\\NV_User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\RemoteRepository\\ScreenTeam\\GraduationProject\\API\\API.csproj",
+      "projectUniqueName": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "F:\\RemoteRepository\\ScreenTeam\\GraduationProject\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "F:\\RemoteRepository\\ScreenTeam\\GraduationProject\\API\\obj\\",
+      "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\NV_User\\.nuget\\packages\\",
+      "outputPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NV_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8155,15 +8160,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\RemoteRepository\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj": {
-              "projectPath": "F:\\RemoteRepository\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj"
+            "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj": {
+              "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj"
             }
           }
         }
@@ -8226,7 +8231,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
