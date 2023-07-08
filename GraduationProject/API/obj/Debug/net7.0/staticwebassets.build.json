@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "SOBEXahoxv4uR7NuS9hUlih3p7WGxB5IWfZ+nGJUibM=",
+  "Source": "API",
+  "BasePath": "_content/API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "F:\\ITI\\GraduationProjectAll\\GraduationProject\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
