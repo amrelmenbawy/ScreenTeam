@@ -5630,24 +5630,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NV_User\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\win10\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
+      "projectUniqueName": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\NV_User\\.nuget\\packages\\",
-      "outputPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Core\\obj\\",
+      "projectPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
+      "outputPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\NV_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5655,7 +5650,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

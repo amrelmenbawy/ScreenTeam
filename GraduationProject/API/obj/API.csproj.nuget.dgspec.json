@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\API\\API.csproj": {}
+    "F:\\remot\\ScreenTeam\\GraduationProject\\API\\API.csproj": {}
   },
   "projects": {
-    "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\API\\API.csproj": {
+    "F:\\remot\\ScreenTeam\\GraduationProject\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\API\\API.csproj",
+        "projectUniqueName": "F:\\remot\\ScreenTeam\\GraduationProject\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\NV_User\\.nuget\\packages\\",
-        "outputPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\API\\obj\\",
+        "projectPath": "F:\\remot\\ScreenTeam\\GraduationProject\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
+        "outputPath": "F:\\remot\\ScreenTeam\\GraduationProject\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NV_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj": {
-                "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj"
+              "F:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj": {
+                "projectPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -101,21 +96,17 @@
         }
       }
     },
-    "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {
+    "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
+        "projectUniqueName": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\NV_User\\.nuget\\packages\\",
-        "outputPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Core\\obj\\",
+        "projectPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
+        "outputPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NV_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,7 +114,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -171,21 +161,17 @@
         }
       }
     },
-    "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj": {
+    "F:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "F:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj",
-        "packagesPath": "C:\\Users\\NV_User\\.nuget\\packages\\",
-        "outputPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Persistance\\obj\\",
+        "projectPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj",
+        "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
+        "outputPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NV_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -193,15 +179,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {
-                "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\GraduationProject\\Core\\Core.csproj"
+              "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {
+                "projectPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj"
               }
             }
           }
