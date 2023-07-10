@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace Persistance.Data.Migrations
+namespace Persistance.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

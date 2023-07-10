@@ -49,3 +49,20 @@ F:\0My-Partner\Remote Repository\ScreenTeam\GraduationProject\Persistance\obj\De
 F:\0My-Partner\Remote Repository\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.pdb
 F:\0My-Partner\Remote Repository\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.genruntimeconfig.cache
 F:\0My-Partner\Remote Repository\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\ref\Persistance.dll
+F:\remot\ScreenTeam\GraduationProject\Persistance\bin\Debug\net7.0\Persistance.deps.json
+F:\remot\ScreenTeam\GraduationProject\Persistance\bin\Debug\net7.0\Persistance.runtimeconfig.json
+F:\remot\ScreenTeam\GraduationProject\Persistance\bin\Debug\net7.0\Persistance.dll
+F:\remot\ScreenTeam\GraduationProject\Persistance\bin\Debug\net7.0\Persistance.pdb
+F:\remot\ScreenTeam\GraduationProject\Persistance\bin\Debug\net7.0\Core.dll
+F:\remot\ScreenTeam\GraduationProject\Persistance\bin\Debug\net7.0\Core.pdb
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.csproj.AssemblyReference.cache
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.GeneratedMSBuildEditorConfig.editorconfig
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.AssemblyInfoInputs.cache
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.AssemblyInfo.cs
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.csproj.CoreCompileInputs.cache
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.csproj.CopyComplete
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.dll
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\refint\Persistance.dll
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.pdb
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\Persistance.genruntimeconfig.cache
+F:\remot\ScreenTeam\GraduationProject\Persistance\obj\Debug\net7.0\ref\Persistance.dll
