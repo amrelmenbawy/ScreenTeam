@@ -1,0 +1,42 @@
+nav {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    background-color: #F8F9FA;
+    padding: 10px;
+    z-index: 1000;
+  }
+  .button {
+    background-color: #ec960b;
+    color: #efeeee;
+    border: #ec960b;
+  }
+
+  .list:hover {
+    background-color: #ec960b;
+    color: white;
+  }
+  .list:active {
+    background-color: #ec960b;
+    color: white;
+  }
+  .blur:focus{
+      box-shadow: none !important;
+      border-color: #eeeff0 !important;
+      outline: none !important;
+  }
+
+  .color {
+--cape-cod: #2e3432;
+--gallery: #efeeee;
+--old-gold: #d29c46;
+--mantle: #989a99;
+--beaver: #866758;
+--pumice: #c3c4c3;
+--indian-khaki: #c1a490;
+--akaroa: #d3bfa0;
+--asparagus: #66a155;
+--bdu:#ffffff;
+  }
+  /* #fcfafa */
