@@ -1,0 +1,111 @@
+<div class="bg-dark py-2 text-light" style="font-size: smaller;">
+  <div class="row col-12">
+
+   <!-- fisrt section (social media) -->
+      <div class="col-sm-3 px-4">
+        <i class="bi bi-facebook px-2"></i>
+        <i class="bi bi-twitter px-2"></i>
+        <i class="bi bi-pinterest px-2"></i>
+        <i class="bi bi-google px-2"></i>
+        <i class="bi bi-instagram px-2"></i>
+      </div>
+    <!-- second section (describtion) -->
+    <div class="col-sm-6 text-center">
+      Describtion of Our Project
+    </div>
+    <!-- third section (account) -->
+      <div class="col-sm-3">
+        <div class="row mx-auto">
+          <div class="col text-center text-light">
+          <i class="bi bi-person-fill mx-2"></i>My Account
+          </div>
+          <div class="col text-center">
+            <i class="bi bi-suit-heart-fill mx-2"></i>Wish List
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+</div>
+<nav *ngIf="navbarVisible" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse row mt-3" id="navbarSupportedContent">
+           <!-- logo section -->
+           <div class="col-sm-3 mx-3 px-5"><a class="navbar-brand" href="#">Navbar</a></div>
+           <!-- search section -->
+           <div class="col-sm-5 text-align-center text-center">
+            <div class="input-group col-sm-12">
+                <div class="col-sm-4">
+                    <select class="blur form-select rounded-0 outline-none">
+                    <option selected>Choose category</option>
+                    <option value="1">Category 1</option>
+                    <option value="2">Category 2</option>
+                    <option value="3">Category 3</option>
+                  </select></div>
+               <div class="col-sm-6"><input type="search" class="blur form-control rounded-0 outline-none" placeholder="Search" aria-label="Search" aria-describedby="search-addon" /></div>
+               <div class="col-sm-2"><button type="button" class="button btn btn-success rounded-0 col-sm-12" style="height: 100%">search</button></div>
+              </div>
+           </div>
+           <!-- third section -->
+           <div class="col-sm-3 mx-4 d-none d-md-block">
+            <div class="input-group col-sm-12 text-center text-align-center mx-5">
+
+                <!-- first -->
+               <div class="col-sm-5">
+                <div class="row align-items-center">
+                  <div class="col-3">
+                    <i class="bi bi-truck" style="font-size: 25px;"></i>
+                  </div>
+                  <div class="col-8">
+                    <span class="d-block text-muted" style="font-size: 12px; font-weight: bold;">over $ 90</span>
+                    <span class="d-block" style="font-size: 12px; font-weight: bold;">Free Shipping</span>
+                  </div>
+                </div>
+              </div>
+
+             <!-- second -->
+               <div class="col-sm-2"> <div style="width: 1px; height: 40px; background-color: #ccc; margin-left: 20px;"></div></div>
+
+               <div class="col-sm-5 text-center text-align-center">
+                <div class="row align-items-center">
+                  <div class="col-3">
+                    <i class="bi bi-cart-dash" style="font-size: 25px;"></i>
+                  </div>
+                  <div class="col-5">
+                    <span class="d-block text-muted" style="font-size: 12px; font-weight: bold;">0 item</span>
+                    <span class="d-block" style="font-size: 12px; font-weight: bold;">My Cart</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+           </div>
+           <hr class="mt-4 text-muted mb-0">
+           <!-- underline navbar -->
+           <div class="mx-4 mb-0 mt-2">
+            <div class="d-flex">
+              <ul class="navbar-nav mx-4 fw-bold" style="font-size: 0.9rem;">
+                <li class="nav-item px-1">
+                  <a class="list nav-link active" aria-current="page" href="#"><i class="bi bi-list-task mx-2"></i> SHOP BY CATEGORIES</a>
+                </li>
+                <li class="nav-item px-1"><a class="list nav-link" href="#">HOME</a></li>
+                <li class="nav-item px-1"><a class="list nav-link" href="#">NEW COLLECTION</a></li>
+                <li class="nav-item px-1"><a class="list nav-link" href="#">SPECIALS</a></li>
+                <li class="nav-item px-1"><a class="list nav-link" href="#">CONTACT US</a></li>
+                <li class="nav-item px-1"><a class="list nav-link" href="#">BLOG</a></li>
+              </ul>
+              <ul class="navbar-nav mx-2 fw-bold ms-auto" style="font-size: 12px;">
+                <li class="nav-item mx-4">
+                  <a class="nav-link" href="#" style="color: #ec960b;"><i class="bi bi-gift-fill px-2"></i>Views Offer Deals</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+           <!-- end nav divs -->
+        </div>
+    </div>
+    </nav>
