@@ -46,3 +46,15 @@ F:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\Core.dll
 F:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\refint\Core.dll
 F:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\Core.pdb
 F:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\ref\Core.dll
+E:\remot\ScreenTeam\GraduationProject\Core\bin\Debug\net7.0\Core.deps.json
+E:\remot\ScreenTeam\GraduationProject\Core\bin\Debug\net7.0\Core.dll
+E:\remot\ScreenTeam\GraduationProject\Core\bin\Debug\net7.0\Core.pdb
+E:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+E:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+E:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+E:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+E:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\Core.dll
+E:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\refint\Core.dll
+E:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\Core.pdb
+E:\remot\ScreenTeam\GraduationProject\Core\obj\Debug\net7.0\ref\Core.dll

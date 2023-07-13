@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T2msTCLke7t7beRNZOnHI9HC8e3jVlQA1RntkGg17TdcRAuwWeMGUFSc/hjmgYPOo/VQ0e6Su0FPdmF5WZuJyA==",
+  "dgSpecHash": "fvpcrP5pxO7C7Fpk4ac/DC+G+uczu6uoSdGJTECIbdnEyCjMI2o2DY9ygonZLPeR5RTsFbgXOXyhIsYqgOCj3Q==",
   "success": true,
-  "projectFilePath": "F:\\remot\\ScreenTeam\\GraduationProject\\API\\API.csproj",
+  "projectFilePath": "E:\\remot\\ScreenTeam\\GraduationProject\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\win10\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\win10\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

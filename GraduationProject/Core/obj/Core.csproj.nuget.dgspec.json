@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {}
+    "E:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {}
   },
   "projects": {
-    "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {
+    "E:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
+        "projectUniqueName": "E:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
+        "projectPath": "E:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-        "outputPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\obj\\",
+        "outputPath": "E:\\remot\\ScreenTeam\\GraduationProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",

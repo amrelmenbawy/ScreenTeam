@@ -7612,11 +7612,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj",
+      "projectUniqueName": "E:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj",
       "projectName": "Persistance",
-      "projectPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj",
+      "projectPath": "E:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\Persistance.csproj",
       "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-      "outputPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\obj\\",
+      "outputPath": "E:\\remot\\ScreenTeam\\GraduationProject\\Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7633,8 +7633,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {
-              "projectPath": "F:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj"
+            "E:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj": {
+              "projectPath": "E:\\remot\\ScreenTeam\\GraduationProject\\Core\\Core.csproj"
             }
           }
         }

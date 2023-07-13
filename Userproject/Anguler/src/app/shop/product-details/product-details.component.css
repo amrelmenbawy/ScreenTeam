@@ -1,0 +1,8 @@
+.c{
+    margin-top: 200px;
+}
+img{
+    max-height: 350px;
+    object-fit: contain; 
+
+}

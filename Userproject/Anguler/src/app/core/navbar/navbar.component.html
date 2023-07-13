@@ -35,7 +35,7 @@
            </button>
            <div class="collapse navbar-collapse row mt-3" id="navbarSupportedContent">
            <!-- logo section -->
-           <div class="col-sm-3 mx-3 px-5"><a class="navbar-brand" href="#">Navbar</a></div>
+           <div class="col-sm-3 mx-3 px-5"><a class="navbar-brand" >Shopping App</a></div>
            <!-- search section -->
            <div class="col-sm-5 text-align-center text-center">
             <div class="input-group col-sm-12">
@@ -90,13 +90,13 @@
             <div class="d-flex">
               <ul class="navbar-nav mx-4 fw-bold" style="font-size: 0.9rem;">
                 <li class="nav-item px-1">
-                  <a class="list nav-link active" aria-current="page" href="#"><i class="bi bi-list-task mx-2"></i> SHOP BY CATEGORIES</a>
+                  <a class="list nav-link active" aria-current="page" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="text-warning" routerLink="/shop"><i class="bi bi-list-task mx-2"></i> SHOP BY CATEGORIES</a>
                 </li>
-                <li class="nav-item px-1"><a class="list nav-link" href="#">HOME</a></li>
-                <li class="nav-item px-1"><a class="list nav-link" href="#">NEW COLLECTION</a></li>
-                <li class="nav-item px-1"><a class="list nav-link" href="#">SPECIALS</a></li>
-                <li class="nav-item px-1"><a class="list nav-link" href="#">CONTACT US</a></li>
-                <li class="nav-item px-1"><a class="list nav-link" href="#">BLOG</a></li>
+                <li class="nav-item px-1"><a [routerLinkActiveOptions]="{exact:true}" routerLinkActive="text-warning" class="list nav-link" routerLink="/">HOME</a></li>
+                <li class="nav-item px-1"><a routerLinkActive="text-warning" class="list nav-link" routerLink="/newCollection">NEW COLLECTION</a></li>
+                <li class="nav-item px-1"><a routerLinkActive="text-warning" class="list nav-link" routerLink="/test-error">Errors</a></li>
+                <li class="nav-item px-1"><a routerLinkActive="text-warning" class="list nav-link" routerLink="/contact">CONTACT US</a></li>
+              
               </ul>
               <ul class="navbar-nav mx-2 fw-bold ms-auto" style="font-size: 12px;">
                 <li class="nav-item mx-4">

@@ -7,7 +7,10 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { ShopModule } from './shop/shop.module';
 import { FormsModule ,ReactiveFormsModule } from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
+import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
+import { HomeModule } from './home/home.module';
+import { ErrorInterceptor } from './core/interceptors/error.interceptor';
+import { LoadingInterceptor } from './core/interceptors/loading.interceptor';
 @NgModule({
   declarations: [
     AppComponent
@@ -17,12 +20,16 @@ import {HttpClientModule} from '@angular/common/http';
     AppRoutingModule,
     CoreModule,
     SharedModule,
-    ShopModule,
+    
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    HomeModule
   ],
-  providers: [],
+  providers: [
+    {provide:HTTP_INTERCEPTORS,useClass:ErrorInterceptor,multi:true},
+    {provide:HTTP_INTERCEPTORS,useClass:LoadingInterceptor,multi:true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
