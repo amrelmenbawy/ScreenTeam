@@ -1,0 +1,33 @@
+
+<div class="container ">
+  <h1 class=" text-center rounded-2 text-light" style=" height: 60px; font-style: italic; background-color:#243e64; ">Delivery Method</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#ID</th>
+        <th>Short Name</th>
+        <th>Delivery Method</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th class="text-center">Action</th>
+        <th class="text-center">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let item of delivery" >
+        <tr>
+          <td>{{item.id}}</td>
+          <td>{{item.shortName}}</td>
+          <td>{{item.deliveryTime}}</td>
+          <td>{{item.description}}</td>
+          <td>{{item.price}}</td>
+          <td class="text-center"><a routerLink="/DeliveryMethod/edit/{{item.id}}" class="btn btn-dark"><i class="bi bi-pencil-square"></i></a></td>
+          <td class="text-center"><a class=" btn btn-outline-danger" (click)="openConfirmationDialogDelete(item.id)" title="Delete Product"><i class="bi bi-trash3-fill"></i></a></td>
+        </tr>
+      </ng-container>
+    </tbody>
+    <tfoot><tr><th colspan="7" class="text-center"><a routerLink="/DeliveryMethod/edit/0" class="btn btn-success w-25">   Add Delivery Method </a></th></tr></tfoot>
+  </table>
+</div>
+
+

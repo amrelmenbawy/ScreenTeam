@@ -1,0 +1,147 @@
+:host {
+  .mat-icon {
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+}
+.logo {
+  text-align: center;
+  padding: 2.6rem 1rem;
+  img {
+    width: 200px;
+  }
+}
+.mat-divider {
+  border-top-width: 2px;
+  border-color: white;
+}
+.mat-list-item {
+  color: rgb(149, 166, 228) !important;
+  font-size: 0.8rem;
+  height: 44px !important;
+  margin-bottom: 4px;
+  &:hover {
+    color: #f2f5f7 !important;
+    background-color: #000000;
+  }
+
+  ::ng-deep {
+    .mat-list-item-content {
+      border-radius: 5px;
+      margin: 0 8px;
+      &:hover {
+        background: #2c3344 !important;
+      }
+    }
+  }
+}
+.list-item-active {
+  color: #f2f5f7 !important;
+  ::ng-deep {
+    .mat-list-item-content {
+      background: #2c3344 !important;
+      &:hover {
+        background: #2c3344 !important;
+      }
+    }
+  }
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.w-78
+{
+  width: 78%;
+}
+.w-81
+{
+  width: 81%;
+}
+.w-84
+{
+  width: 84%;
+}
+.w-87
+{
+  width: 87%;
+}
+.w-90
+{
+  width: 90%;
+}
+.w-85
+{
+  width: 90%;
+}
+a{
+  background-color:  #4574b6;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+a:hover{
+cursor: pointer;
+background-color: beige;
+color: black;
+}
+.aactive{
+  color: #000000 !important;
+  background-color: #ffffff ;
+  font-weight: bolder;
+}
+/* :host {
+  .mat-icon {
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+}
+.logo {
+  text-align: center;
+  padding: 2.6rem 1rem;
+  img {
+    width: 200px;
+  }
+}
+.mat-divider {
+  border-top-width: 2px;
+  border-color: white;
+}
+.mat-list-item {
+  color: #94a3b8 !important;
+  font-size: 0.8rem;
+  height: 44px !important;
+  margin-bottom: 4px;
+  &:hover {
+    color: #f2f5f7 !important;
+  }
+  ::ng-deep {
+    .mat-list-item-content {
+      border-radius: 5px;
+      margin: 0 8px;
+      &:hover {
+        background: #2c3344 !important;
+      }
+    }
+  }
+}
+.list-item-active {
+  color: #f2f5f7 !important;
+  ::ng-deep {
+    .mat-list-item-content {
+      background: #2c3344 !important;
+      &:hover {
+        background: #2c3344 !important;
+      }
+    }
+  }
+}
+.mat-subheader {
+  color: #818cf8;
+  font-size: 0.6rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+} */

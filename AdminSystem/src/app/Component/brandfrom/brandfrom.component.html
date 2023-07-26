@@ -1,0 +1,27 @@
+<div class="container w-75 p-5 rounded-5 text-light mt-3"  style=" background-color: #243e64;">
+  <form class="w-100" [formGroup]="typefrom" (submit)="OperationONForm()" >
+    <input type="text" class="form-control" name="id" hidden formControlName="id">
+    <div class="mb-3">
+      <label for="name" class="form-label">Brand</label>
+      <input type="text" class="form-control" placeholder="name of Brand" id="name"
+      name="name"
+      formControlName="name">
+      <ng-container *ngIf="name.touched ||error">
+        <div class="form-text  text-light rounded font-monospace"
+        *ngIf="name.hasError('required');"
+        ><span class="bg-danger rounded">* Name is Required!!!
+          </span>
+          </div>
+          <div  class="form-text  text-light rounded font-monospace"
+          *ngIf="name.hasError('minlength');"
+          ><span class="bg-danger rounded">* Minimum Lenght OF Name is 3 !!!
+          </span></div>
+        </ng-container>
+    </div>
+    <div class="d-flex justify-content-center ">
+      <button type="submit" class="btn btn-warning">{{typeID==0 ?'Add Brand':'Edit Brand'}}</button>
+    </div>
+  </form>
+</div>
+
+

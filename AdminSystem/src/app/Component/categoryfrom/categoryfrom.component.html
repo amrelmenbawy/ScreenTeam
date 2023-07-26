@@ -1,0 +1,25 @@
+<div class="container w-75 p-5 rounded-5 text-light mt-3"  style=" background-color: #243e64;">
+  <form class="w-100" [formGroup]="typefrom" (ngSubmit)="OperationONForm()" >
+    <input type="number" class="form-control" hidden formControlName="Id">
+    <div class="mb-3">
+      <label for="name" class="form-label">Category</label>
+      <input type="text" class="form-control" placeholder="name of Category" id="name"
+      formControlName="Name">
+      <ng-container *ngIf="name.touched ||error">
+        <div class="form-text  text-light rounded font-monospace"
+        *ngIf="name.hasError('required');"
+        ><span class="bg-danger rounded">* Name is Required!!!
+          </span>
+          </div>
+          <div  class="form-text  text-light rounded font-monospace"
+          *ngIf="name.hasError('minlength');"
+          ><span class="bg-danger rounded">* Minimum Lenght OF Name is 3 !!!
+          </span></div>
+        </ng-container>
+    </div>
+    <div class="d-flex justify-content-center ">
+      <button type="submit" [disabled]="!typefrom.valid" class="btn btn-warning">{{typeID==0 ?'Add Category':'Edit Category'}}</button>
+    </div>
+  </form>
+</div>
+

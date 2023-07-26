@@ -1,0 +1,114 @@
+
+<div class="container w-75 p-5 rounded-5 text-light mt-3"  style=" background-color: #243e64;">
+  <form class="w-100" [formGroup]="productfrom" (submit)="OperationONForm($event)" >
+    <input type="number" class="form-control" hidden formControlName="id">
+    <div class="mb-3">
+      <label for="Productname" class="form-label text-bold">Product Name</label>
+      <input type="text" class="form-control" id="Productname" placeholder="Please Enter your Product Name"
+      formControlName="name">
+      <ng-container *ngIf="getname.touched || error">
+      <div id="Productname" class="form-text text-light rounded font-monospace"
+      *ngIf="getname.hasError('required');"
+      ><span class="bg-danger rounded">* Name is Required!!!
+        </span>
+        </div>
+      <div id="Productname" class="form-text  text-light rounded font-monospace"
+      *ngIf="getname.hasError('minlength');"
+      ><span class="bg-danger rounded">* Minimum Lenght OF Name is 3 !!! </span></div>
+      </ng-container>
+    </div>
+    <div class="mb-3">
+      <label for="ProductDescription" class="form-label text-bold">Description</label>
+      <input type="text" class="form-control" id="ProductDescription" placeholder="Please Enter your Product Name"
+      formControlName="description">
+      <ng-container *ngIf="getdescription.touched || error">
+      <div id="ProductDescription" class="form-text  text-light rounded font-monospace"
+      *ngIf="getdescription.hasError('required');"
+      ><span class="bg-danger rounded">* Description is Required!!!
+        </span>
+        </div>
+      <div id="ProductDescription" class="form-text  text-light rounded font-monospace"
+      *ngIf="getdescription.hasError('minlength');"
+      ><span class="bg-danger rounded">* Minimum Lenght OF Name is 20 !!! </span></div>
+      </ng-container>
+    </div>
+    <div class="mb-3">
+      <label for="Price" class="form-label">Price</label>
+      <input type="number" class="form-control" placeholder="Enter Price" id="Price"
+      formControlName="price">
+      <ng-container *ngIf="getprice.touched ||error">
+        <div id="Price" class="form-text  text-light rounded font-monospace"
+        *ngIf="getprice.hasError('required');"
+        ><span class="bg-danger rounded">* Price is Required!!!
+          </span>
+          </div>
+        </ng-container>
+    </div>
+    <div class="mb-3">
+      <label for="Ifile" class="form-label">Image <span class="fst-italic text-warning">(Optional)</span></label>
+      <input type="file" class="form-control" formControlName="imageFile" (change)="getfile($event)" id="Ifile">
+      <!-- <ng-container *ngIf="getimageFile.touched ||error">
+        <div id="Image" class="form-text  text-light rounded font-monospace"
+        *ngIf="getimageFile.hasError('required');"
+        ><span class="bg-danger rounded">* Picture is Required Please Upload Picture!!!
+          </span>
+          </div>
+        </ng-container> -->
+      <input type="url" class="form-control" hidden placeholder="Enter URL Link for Product" id="Image"
+      formControlName="imgUrl">
+      <!-- <ng-container *ngIf="getimgUrl.touched ||error">
+        <div id="Image" class="form-text  text-light rounded font-monospace"
+        *ngIf="getimgUrl.hasError('required');"
+        ><span class="bg-danger rounded">* Image URL is Required!!!
+          </span>
+          </div>
+        </ng-container> -->
+    </div>
+    <div class="mb-3">
+      <label for="Category" class="form-label">Category</label>
+      <select class="form-select" id="Category"
+      formControlName="productTypeId">
+      <option value="0" selected>Chosse Category</option>
+        <ng-container *ngFor="let type of types">
+          <option value="{{type.id}}">{{type.name}}</option>
+        </ng-container>
+        </select>
+        <ng-container *ngIf="getproductTypeId.touched ||error">
+        <div id="Category" class="form-text  text-light rounded font-monospace"
+        *ngIf="getproductTypeId.hasError('required');"
+        ><span class="bg-danger rounded">* Category is Required!!!
+          </span>
+          </div>
+        </ng-container>
+    </div>
+    <div class="mb-3">
+      <label for="brand" class="form-label">Brand</label>
+      <select class="form-select"  id="brand"
+      formControlName="productBrandId">
+      <option value="0" >Chosse Brand</option>
+        <ng-container *ngFor="let brand of brands">
+          <option value="{{brand.id}}">{{brand.name}}</option>
+        </ng-container>
+        </select>
+        <ng-container *ngIf="getproductBrandId.touched ||error">
+          <div id="brand" class="form-text  text-light rounded font-monospace"
+          *ngIf="getproductBrandId.hasError('required');"
+          ><span class="bg-danger rounded">* Brand is Required!!!
+            </span>
+            </div>
+          </ng-container>
+    </div>
+    <div class="d-flex justify-content-center ">
+      <button type="submit" [disabled]="!productfrom.valid" class="btn btn-warning">{{productID==0 ?'Add Product':'Edit Product'}}</button>
+    </div>
+  </form>
+</div>
+
+
+ <!-- <ng-container *ngIf="getproductTypeId.touched ||error">
+        <div id="Image" class="form-text  text-light rounded font-monospace"
+        *ngIf="getimgUrl.hasError('required');"
+        ><span class="bg-danger rounded">* Image URL is Required!!!
+          </span>
+          </div>
+        </ng-container> -->

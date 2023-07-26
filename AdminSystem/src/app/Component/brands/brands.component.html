@@ -1,0 +1,25 @@
+<div class="container ">
+  <h1 class=" text-center rounded-2 text-light" style=" height: 60px; font-style: italic; background-color:#243e64; ">Brands</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#ID</th>
+        <th>Name</th>
+        <th class="text-center">Action</th>
+        <th class="text-center">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let item of types" >
+        <tr>
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+          <td class="text-center"><a routerLink="/brand/edit/{{item.id}}" class="btn btn-dark"><i class="bi bi-pencil-square"></i></a></td>
+          <td class="text-center"><a class=" btn btn-outline-danger" (click)="openConfirmationDialogDelete(item.id)" title="Delete Brand"><i class="bi bi-trash3-fill"></i></a></td>
+        </tr>
+      </ng-container>
+    </tbody>
+    <tfoot><tr><th colspan="4" class="text-center"><a routerLink="/brand/edit/0" class="btn btn-success w-25">   Add Brand </a></th></tr></tfoot>
+  </table>
+</div>
+

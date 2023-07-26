@@ -1,0 +1,119 @@
+<div class="container">
+  <h1 class=" text-center rounded-2 text-light" style=" height: 60px; font-style: italic; background-color:#243e64; ">Orders</h1>
+  <div class="row d-flex justify-content-evenly">
+<ng-container  *ngFor="let order of orders">
+  <div class="col-12">
+  <table class="table mb-2">
+    <thead>
+      <tr>
+        <th colspan="6" class="bg-dark text-light text-center">Order #{{order.id}} For Buyer :{{order.buyerEmail}} </th>
+      </tr>
+      <tr>
+        <th style="width: 10%;" >#ID</th>
+        <th style="width: 20%;" class="bg-warning-subtle">BuyerEmail</th>
+        <th style="width: 20%;" >OrderDate</th>
+        <th style="width: 15%;" >DeliveryMethod</th>
+        <th style="width: 20%;">Status</th>
+        <th style="width: 15%;" >Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{order.id}}</td>
+        <td class="bg-warning-subtle">{{order.buyerEmail}}</td>
+        <td>{{order.orderDate}}</td>
+        <td>{{order.deliveryMethod}}</td>
+        <td [class.succ]="order.status=='Payment Received'" [class.bg-warning]="order.status=='Pending'" >{{order.status}}</td>
+        <td>{{order.total}} $</td>
+      </tr>
+      <tr>
+          <th colspan="6" class="text-center bg-secondary-subtle" >Order Items</th>
+    </tr>
+      <tr>
+        <td colspan="6">
+          <table class="table text-light ">
+            <thead>
+              <tr>
+                <th>productId</th>
+                <th>productName</th>
+                <th>imgUrl</th>
+                <th>price</th>
+                <th>quantity</th>
+              </tr>
+            </thead>
+            <tbody>
+                  <ng-container *ngFor="let orderitem of order.orderItems" >
+                      <tr>
+                        <td>{{orderitem.productId}}</td>
+                        <td>{{orderitem.productName}}</td>
+                        <td><img src="{{orderitem.imgUrl}}"></td>
+                        <td>{{orderitem.price}}</td>
+                        <td>{{orderitem.quantity}}</td>
+                      </tr>
+                    </ng-container>
+                    </tbody>
+                </table>
+      </td>
+    </tr>
+      <tr>
+          <th colspan="6" class="text-center bg-secondary-subtle" >Shiping Address</th>
+    </tr>
+      <tr>
+        <td colspan="6">
+          <table class="table text-light ">
+            <thead>
+              <tr>
+                <th>firstname</th>
+                <th>lastname</th>
+                <th>street</th>
+                <th>city</th>
+                <th>state</th>
+                <th>zipCode</th>
+              </tr>
+            </thead>
+            <tbody>
+                      <tr>
+                        <td>{{order.shipToAddress.firstname}}</td>
+                        <td>{{order.shipToAddress.lastname}}</td>
+                        <td>{{order.shipToAddress.street}}</td>
+                        <td>{{order.shipToAddress.city}}</td>
+                        <td>{{order.shipToAddress.state}}</td>
+                        <td>{{order.shipToAddress.zipCode}}</td>
+                      </tr>
+                    </tbody>
+                </table>
+      </td>
+    </tr>
+  </tbody>
+  </table>
+<hr style="border: 2px dashed red ; ">
+</div>
+</ng-container>
+</div>
+</div>
+
+<!-- "productId": number,
+      "productName": string,
+      "imgUrl": string,
+      "price": number,
+      "quantity": number -->
+
+
+
+<!--  "id": number,
+  "buyerEmail": string,
+  "orderDate": string,
+  "deliveryMethod": string,
+  "subtotal": number,
+  "shippingPrice": number,
+  "shipToAddress": {
+    "firstname": string,
+    "lastname": string,
+    "street": string,
+    "city": string,
+    "state": string,
+    "zipCode": string
+  },
+  "orderItems": IorderItems[],
+  "status": string,
+  "total": number -->
