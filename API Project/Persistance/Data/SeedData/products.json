@@ -1,0 +1,908 @@
+[
+  {
+    "Id": 1,
+    "Name": "White Hoodie Women (ONLY FASHION)",
+    "Description": "Unique Amazing Design High resolution Printed design Unique Characters Printed",
+    "Price": 574,
+    "imgUrl": "p1.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Tonique Only 15 Wide 18.5 Oil",
+    "Description": "display attribute: apparel display on website material composition: 80% Cotton 20% Polyester Item Category: outerwear",
+    "Price": 350,
+    "imgUrl": "p2.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Tommy Hilfiger Mens Cotton Avery Adjustable Baseball Cap, Navy Blazer/Racing Red, One Size",
+    "Description": "Tommy Hilfigers Avery baseball hat is a best-seller year after year thanks to the iconic logo flag embroIdery, classic look, and adjustable construction. This is one essential that’s hard to beat.",
+    "Price": 180,
+    "imgUrl": "p3.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Id": 4,
+    "Name": "Tommy Hilfiger Men's Short Sleeve Graphic T Shirt",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 1570,
+    "imgUrl": "p4.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+
+  {
+    "Id": 5,
+    "Name": "Tommy Hilfiger Silver Stainless Black dial Watch for Men's 1791141",
+    "Description": "Brand: Tommy Hilfiger Display type: Analog Special feature: Chronograph Style: Dress Target gender: Male Watch movement type: Quartz",
+    "Price": 2500,
+    "imgUrl": "p5.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 2
+  },
+
+  {
+    "Id": 6,
+    "Name": "Tommy Hilfiger Womens Windbreaker Jacket",
+    "Description": "Mesh interior 2 sIde pockets & Tommy Hilfiger logo on sleeve Contrast CMZ zipper with metal logo zipper pull Metal tipped drawstring at hood & adjustable shirring detail at hem Machine washable",
+    "Price": 1200,
+    "imgUrl": "p6.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Id": 7,
+    "Name": "DeFacto Mens Comfort Fit Crew Neck Basic Tshirt",
+    "Description": "DeFacto W7659AZ Cotton 100% Comfort Fit Crew Neck",
+    "Price": 1000,
+    "imgUrl": "p7.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 8,
+    "Name": "DeFacto Girls Regular Fit Short Sleeve Summery Printed Short Sleeve Body",
+    "Description": "Y9391A6 Cotton 100% Regular Fit Short Sleeve",
+    "Price": 199,
+    "imgUrl": "p8.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 9,
+    "Name": "DeFacto Boys Round Neck Half Sleeve Unisex Basic Tshirt",
+    "Description": "DeFacto K1687A6 Cotton 100% Regular Fit Short Sleeve T-Shirt",
+    "Price": 155,
+    "imgUrl": "p9.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 10,
+    "Name": "Activ Boys ACTIV BOYS FLAT TRACKSUIT Tracksuit",
+    "Description": "Cotton 100% Regular Fit Short Sleeve T-Shirt",
+    "Price": 188,
+    "imgUrl": "p10.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 11,
+    "Name": "Activ Mens ActivNEW INDOOR FOOTBALL SHOES Sneaker, Green/Red, 46 EU",
+    "Description": "Brand: Activ Closure type: Lace-Up Heel type  No Heel Outer material: Leather Special -feature: Breathable -Style: Low-Top",
+    "Price": 1555,
+    "imgUrl": "p11.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 12,
+    "Name": "activ Boys SPORT SHOES BOYS, Color:",
+    "Description": "Breathable leather lining Made in Egypt Occasion: Casual Shoe Brand: activ",
+    "Price": 1556,
+    "imgUrl": "p12.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 13,
+    "Name": "Grinta Womens CAB90-Beigee Boat Shoe, Beigee, 39 EU",
+    "Description": "Breathable leather lining Made in Egypt Occasion: Casual Shoe Brand: activ",
+    "Price": 1450,
+    "imgUrl": "p13.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 14,
+    "Name": "Activ Mens ACTIV LINEAR SPORTS TANKTOP T-Shirt",
+    "Description": "Age range description: Adult Brand: Activ Care instructions: Machine Wash Fit type: Regular Fit Sleeve type: Sleeveless Target gender: Male",
+    "Price": 250,
+    "imgUrl": "p14.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 15,
+    "Name": "Tommy Hilfiger Multi Dial Quartz Watch for Men with Navy Blue Silicone Strap - 1791476, blue, Ribbon",
+    "Description": "Product Features: Brand: Tommy Hilfiger Watch Shape: Round Dial Case Diameter Size: L (40 - 48 mm) Band Material: Rubber Display Type: Analog Targeted Group: Men Type: Casual Watch Model Number: 1791476.",
+    "Price": 1189.99,
+    "imgUrl": "p14.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 2
+  },
+  {
+    "Id": 16,
+    "Name": "Ravin EG Mens Ravin Striped Upper Buttoned Cotton Polo Shirt S5M784 Polo Shirt",
+    "Description": "This polo shirt from Ravin will be your favourite polo shirt as it is very modern and stylish. it features a turn down collar with button closure for a style you can wear for casual events when you want to look casual and chic and it boasts a lightweight construction to help you stay cool and comfortable all day. It is highlighted with a striped pattern that gives it a modish look. It can be worn with anything from shorts to chinos to jeans for a versatile look with a white fashion sneakers and you will look very chic.",
+    "Price": 1100,
+    "imgUrl": "p16.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 6
+  },
+  {
+    "Id": 17,
+    "Name": "Ravin Womens Bi-Tone California Long Sleeves Slip On White & Baby Blue Tee, O165856 T-Shirt",
+    "Description": "This relaxed-cut bi-tone t-shirt from Ravin will add a functional item to your casual wardrobe. This long-sleeved t-shirt is made of cotton with a bi-tone color for comfortable all-day wear and can be easily layered when the weather turns chilly outsIde. in a traditional crew neck shape with a fashionable front print. Dark jeans or shorts, or as a layering item underneath a sleeveless vest or jacket for year-round wear.",
+    "Price": 650,
+    "imgUrl": "p17.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
+  },
+  {
+    "Id": 18,
+    "Name": "CAESAR mens 6868b Anorak",
+    "Description": "summer,made from hight quality cotton",
+    "Price": 180,
+    "imgUrl": "p18.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 7
+  },
+  {
+    "Id": 19,
+    "Name": "CAESAR Boys BOYS Wool Pullover With High Neck Pullover",
+    "Description": "Boys' Clothing,Pullover,light grey,comfortable materials",
+    "Price": 180,
+    "imgUrl": "p19.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 7
+  },
+  {
+    "Id": 20,
+    "Name": "CAESAR Mens Sweatshirts Round With Line On The Shoulder Sweatshirt",
+    "Description": "Men's Fashion,Hoodie,Darkgreen,comfortable materials",
+    "Price": 1500,
+    "imgUrl": "p20.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 7
+  },
+  {
+    "Id": 21,
+    "Name": "Dejavu D.Brown Ankle Boot Size",
+    "Description": "Dejavu trendy shoes offers a great variety of all year collection that you can wear anytime. Dejavu comfy shoes allow you to walk with confIdence and comfort all the time.",
+    "Price": 550,
+    "imgUrl": "p21.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 8
+  },
+  {
+    "Id": 22,
+    "Name": "Dejavu Womens heels",
+    "Description": "Dejavu FLATFORMSNEAKERSSHOES",
+    "Price": 600,
+    "imgUrl": "p22.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 8
+  },
+  {
+    "Id": 23,
+    "Name": "Dejavu STILETTO MULE SHOES-Black",
+    "Description": "Wedge Sandal Shoes",
+    "Price": 420,
+    "imgUrl": "p23.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 8
+  },
+  {
+    "Id": 24,
+    "Name": "AdIdas Pureboost 22 Shoes RUNNING SHOES for Men",
+    "Description": "These adIdas running shoes keep you comfortable for short runs through the city. The clean, wearable design includes a full-length Boost mIdsole that provIdes step-in ease and lasting energy return. This shoe is made with high-performance recycled materials and features an upper made with 50% recycled content.",
+    "Price": 4000,
+    "imgUrl": "p24.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 9
+  },
+  {
+    "Id": 25,
+    "Name": "adIdas boys AHLY H SHO Y WHITE Football Shorts",
+    "Description": "Too good to limit to the pitch. The adIdas Tiro jacket debuted as soccer training wear, but it's now a streetwear staple. From moisture-absorbing AEROREADY to the zip pockets on the sIde, the details are just as useful beyond the boundary lines.",
+    "Price": 500,
+    "imgUrl": "p25.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 9
+  },
+  {
+    "Id": 26,
+    "Name": "AdIdas train essentials feelready logo training t-shirt training t-shirts for men",
+    "Description": "A moisture-absorbing workout tee made in part with recycled materials.",
+    "Price": 1000,
+    "imgUrl": "p26.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 9
+  },
+  {
+    "Id": 27,
+    "Name": "Nike Men's Everyday Lightweight Crew Training Socks (3 Pairs)",
+    "Description": "Nike Value cushioned training socks are classic, functional socks for your training. The NIKE Dri-Fit technology ensures proper ventilation and comfort, while a terry reinforcement ensures slip resistance and a super feel that extends over the ankles. The classic NIKE Swoosh branding should not be missing.",
+    "Price": 150,
+    "imgUrl": "p27.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 10
+  },
+  {
+    "Id": 28,
+    "Name": "adIdas Mens Train Essentials Seasonal Logo Training T-Shirt TRAINING T-SHIRTS for Men T-Shirt",
+    "Description": "A moisture-absorbing tee made in part with recycled materials.",
+    "Price": 1500,
+    "imgUrl": "p28.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 10
+  },
+  {
+    "Id": 29,
+    "Name": "Nike Men's SG Silver-Tone Buckle with Three Interchangeable Belt Straps",
+    "Description": "If you like options, Nike Golf's 3 in 1 Web Pack of of cotton web belts is for you! This stylish package includes three interchangeable cotton web belts with a Nike coutout buckle,",
+    "Price": 200,
+    "imgUrl": "p29.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 10
+  },
+  {
+    "Id": 30,
+    "Name": "Maybelline - Lifter Gloss - 10 Crystal",
+    "Description": "Maybelline - Lifter Gloss - 10 Crystal",
+    "Price": 500,
+    "imgUrl": "p30.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 11
+  },
+  {
+    "Id": 31,
+    "Name": "Maybelline New York SuperStay Matte Ink, LiquId Lipstick, City Edition, Originator, 0.17 Ounce",
+    "Description": "",
+    "Price": 550,
+    "imgUrl": "p31.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 11
+  },
+  {
+    "Id": 32,
+    "Name": "Maybelline New York Super Stay Matte Ink LiquId Lipstick, 45 Escapist",
+    "Description": "Maybelline New York - Super Stay Matte Ink LiquId Lipstick - 45 Escapist It has been packed under hygienic conditions, making it highly beneficial for you. Please read the instructions on the package before use.",
+    "Price": 400,
+    "imgUrl": "p32.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 11
+  },
+  {
+    "Id": 33,
+    "Name": "essence JUICY BOMB Shiny Lip Gloss, No. 105 Bouncy Bubblegum, Multicoloured, Shiny, Radiantly Fresh, Vegan, Conforms to Our Clean Beauty Standard, Alcohol Free (10 ml)",
+    "Description": "Ultra glossy and super fruity! The colorful and excellently scented JUICY BOMB shiny lip glosses ensure beautifully shiny lips in no time at all - without sticking!",
+    "Price": 200,
+    "imgUrl": "p33.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 12
+  },
+  {
+    "Id": 34,
+    "Name": "Essence JUICY BOMB Shiny Lip Gloss No. 07 Ahh-çaí Purple, Radiantly Fresh, Shiny, Translucent, Vegan, Alcohol-Free and Preservatives (10 ml)",
+    "Description": "Ultra glossy and super fruity! The colourful and excellently fragrant Juicy Bomb shiny lip glosses ensure beautifully shiny lips in no time at all - without sticking.",
+    "Price": 230,
+    "imgUrl": "p34.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 12
+  },
+  {
+    "Id": 35,
+    "Name": "Shock Out Gloss Ciao - 02",
+    "Description": "The girls makeup sweetheart brand in Egypt for more than 35 years",
+    "Price": 114,
+    "imgUrl": "p35.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 12
+  },
+  {
+    "Id": 36,
+    "Name": "M.N Lip Liners 12 colors",
+    "Description": "Total of Lip Liner",
+    "Price": 280,
+    "imgUrl": "p36.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 12
+  },
+  {
+    "Id": 37,
+    "Name": "essence Lash Brow Gel Mascara",
+    "Description": "Wave goodbye to unruly eyebrows! Our long lasting two in one lash & brow gel mascara is Ideal for both your eyebrows and eyelashes, giving them the perfect shape and finish to leave you glamorous and confIdent!",
+    "Price": 120,
+    "imgUrl": "p37.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 12
+  },
+  {
+    "Id": 38,
+    "Name": "Luna intensive tanning gel, 130 gm",
+    "Description": "Accelerate and provIde nice bronze tint color to the skin, and Protect against premature aging.",
+    "Price": 120,
+    "imgUrl": "p38.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 13
+  },
+  {
+    "Id": 39,
+    "Name": "Luna blusher - number 502, 4.5 gm",
+    "Description": "Brand: Luna Type: Blusher Color Code: 502 Product Size: 4.5 gm A powder blusher that gives you a soft and silky touch for your makeup. Gives a natural effect. Long lasting result.",
+    "Price": 120,
+    "imgUrl": "p39.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 13
+  },
+  {
+    "Id": 40,
+    "Name": "Luna lip moisturizer set - 6 pieces",
+    "Description": "Brand: Luna It moisturizes your lips and keeps them soft. It protects your lips from dehydration and cracks. It includes 6 moisturizers with different flavors (Strawberry - Vanilla - Rose - Coconut - Cola - Peach).",
+    "Price": 100,
+    "imgUrl": "p40.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 13
+  },
+  {
+    "Id": 42,
+    "Name": "Luna sunscreen kIds spf 50-130ml",
+    "Description": "Contains highly pure active ingredients for delicate skin Rich in natural UV filters for ultra protection. Water resistant formula allows kIds playing in water & on extended sun exposure without burning Fragrance free .",
+    "Price": 90,
+    "imgUrl": "42.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 13
+  },
+  {
+    "Id": 43,
+    "Name": "AMANDA MILANO Lip Palm - Caramel 04",
+    "Description": "Shea Butter is Natural moisturizer for soften lips.It used for chapped lips, and aIds the healing process.",
+    "Price": 20,
+    "imgUrl": "p43.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 14
+  },
+  {
+    "Id": 44,
+    "Name": "Amanda Milano Dream Blusher - 37 Beige, 5 g",
+    "Description": "Our innovation and trend awareness puts Amanda Milano as the makeup trendsetter in Egypt",
+    "Price": 120,
+    "imgUrl": "p45.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 14
+  },
+  {
+    "Id": 45,
+    "Name": "Avon far away for women edp 50 ml",
+    "Description": "Far Away by Avon is a Oriental Floral fragrance for women. Far Away was launched in 1994. Top notes are karo karounde, ylang-ylang, orange, coconut and peach; mIddle notes are jasmine, osmanthus, rose, violet, gardenia and freesia; base notes are vanilla, sandalwood, musk and amber.",
+    "Price": 300,
+    "imgUrl": "p46.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 15
+  },
+  {
+    "Id": 46,
+    "Name": "Avon Recovery+ repairing Body Lotion with emollients 720ml",
+    "Description": "Avon Recovery+ repairing Body Lotion with emollients 720ml",
+    "Price": 120,
+    "imgUrl": "47.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 15
+  },
+  {
+    "Id": 47,
+    "Name": "Avon anew renewal power serum protinol 30 ml",
+    "Description": "Discover new Avon Anew Renewal Power Serum harnesses patented Protinol™ and NiacinamIde to deliver dramatically healthier, more beautiful looking skin",
+    "Price": 120,
+    "imgUrl": "41.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 15
+  },
+  {
+    "Id": 48,
+    "Name": "Avon - Little Black Dress Body Spray For Her",
+    "Description": "Brand: Avon. Packed under hygienic conditions, it will be highly beneficial for you. Please read the instructions on the package before use.",
+    "Price": 120,
+    "imgUrl": "p48.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 15
+  },
+  {
+    "Id": 49,
+    "Name": "Avon Little Black Desi Roll On Antiperspirant Deodorant",
+    "Description": "Little Black Dress Roll On Deodorant, 50ml. It has a very classic rich fragrance. A refreshing fragrance makes you feel fresh and energetic.",
+    "Price": 50,
+    "imgUrl": "p49.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 15
+  },
+  {
+    "Id": 50,
+    "Name": "SAMSUNG Galaxy A04 Dual SIM Smartphone-",
+    "Description": " 4GB RAM, 64GB Storage, LTE, Black - 1 year Warranty",
+    "Price": 7500,
+    "imgUrl": "p50.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 16
+  },
+  {
+    "Id": 51,
+    "Name": "Samsung Galaxy A13",
+    "Description": ", Dual SIM 4GB RAM, 64GB Storage, LTE, Black - 1 year Warranty",
+    "Price": 5000,
+    "imgUrl": "p51.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 16
+  },
+  {
+    "Id": 52,
+    "Name": "Samsung galaxy m33",
+    "Description": ", dual sim, 8gb ram, 128gb storage, 5g, green",
+    "Price": 11500,
+    "imgUrl": "p53.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 16
+  },
+  {
+    "Id": 53,
+    "Name": "Apple iPhone 14 Pro Max",
+    "Description": "6.7-inch Super Retina XDR display featuring Always-On and ProMotion Dynamic Island, a magical new way to interact with iPhone 48MP Main camera for up to 4x greater resolution Cinematic mode now in 4K Dolby",
+    "Price": 53000,
+    "imgUrl": "p52.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 17
+  },
+  {
+    "Id": 54,
+    "Name": "Apple Iphone XS Max With Facetime",
+    "Description": "512 GB, 4G LTE, Space Grey, 4 GB Ram, Single Sim & E-Sim",
+    "Price": 25000,
+    "imgUrl": "54.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 17
+  },
+  {
+    "Id": 55,
+    "Name": "New Apple iPhone 13 with FaceTime (128GB) - Blue",
+    "Description": "6.1-inch Super Retina XDR display Cinematic mode adds shallow depth of field and shifts focus automatically in your vIdeos",
+    "Price": 30000,
+    "imgUrl": "p54.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 17
+  },
+  {
+    "Id": 56,
+    "Name": "New Apple iPhone 13 (128 GB) - Green",
+    "Description": "6.1-inch Super Retina XDR display Cinematic mode adds shallow depth of field and shifts focus automatically in your vIdeos",
+    "Price": 30000,
+    "imgUrl": "p55.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 17
+  },
+  {
+    "Id": 57,
+    "Name": "Apple iPhone 7 with FaceTime",
+    "Description": "128GB, 4G LTE, Rose Gold, 4.7 Inch",
+    "Price": 5000,
+    "imgUrl": "p56.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 17
+  },
+  {
+    "Id": 58,
+    "Name": "Redmi Note 12",
+    "Description": "Dual SIM, 4GB RAM, 128GB ROM, 4G LTE - Onyx Gray",
+    "Price": 7000,
+    "imgUrl": "p58.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 18
+  },
+  {
+    "Id": 59,
+    "Name": "Xiaomi Redmi 10 (2022)",
+    "Description": "6GB RAM, 128GB ROM - Carbon Grey",
+    "Price": 7000,
+    "imgUrl": "p59.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 18
+  },
+  {
+    "Id": 60,
+    "Name": "Oppo a96",
+    "Description": "dual sim, 8gb ram, 128gb rom - blue",
+    "Price": 9000,
+    "imgUrl": "p60.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 19
+  },
+  {
+    "Id": 61,
+    "Name": "OPPO A77 ",
+    "Description": "Dual SIM SKY BLUE 4+4GB RAM 128GB 4G LTE - MIddle East Version",
+    "Price": 8000,
+    "imgUrl": "p61.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 19
+  },
+  {
+    "Id": 62,
+    "Name": "Nokia 106 Dual Sim, black",
+    "Description": "Play the classic Snake Xenzia and preloaded try-and-buy games like Nitro Racing, Danger Dash, Tetris and more. Nokia 106 also holds up to 2000 contacts and 500 text messages, so you can easily keep in touch with your business network, friends and family.",
+    "Price": 500,
+    "imgUrl": "p62.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 20
+  },
+  {
+    "Id": 63,
+    "Name": "Nokia g21",
+    "Description": "ndroId smartphone, dual sim, 4gb ram, 128gb memory, 6.5hd+ screen, 5050mah battery, androId 12 ready, face unlock, finger print sensor - dusk",
+    "Price": 5000,
+    "imgUrl": "p63.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 20
+  },
+  {
+    "Id": 64,
+    "Name": "Realme 10",
+    "Description": " 8GB RAM, 256GB ROM - Clash White",
+    "Price": 10000,
+    "imgUrl": "p64.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 21
+  },
+  {
+    "Id": 65,
+    "Name": "Realme 9i",
+    "Description": "dual sim mobile phone, *6.6 inch, 128gb rom, 4gb ram - prism black",
+    "Price": 6000,
+    "imgUrl": "p65.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 21
+  },
+  {
+    "Id": 66,
+    "Name": "Realme c30",
+    "Description": "dual sim, 4g lte, 32gb + 2gb *6.5 inches - lake blue",
+    "Price": 3000,
+    "imgUrl": "p66.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 21
+  },
+  {
+    "Id": 67,
+    "Name": "Dell Vostro 3510 laptop",
+    "Description": "11th Gen Intel core i7-1165G7, 16GB RAM, 1TB HDD + 256GB SSD, NvIdia GeForce MX350 GDDR5 Graphics, 15.6",
+    "Price": 25000,
+    "imgUrl": "p67.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 22
+  },
+  {
+    "Id": 68,
+    "Name": "Dell G15 5520 Gaming Laptop",
+    "Description": "NG9E5A-CHLDG- Dark Gray (Core i7-12700H, 16GB, 512GB SSD, RTX3050,15in FHD)",
+    "Price": 35.999,
+    "imgUrl": "68.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 22
+  },
+  {
+    "Id": 69,
+    "Name": "Dell G15-5520 Gaming Laptop ",
+    "Description": "12th Intel Core i7-12700H 14-Cores, 16GB RAM DDR5 4800 MHz, 512GB SSD, NVIdIA Geforce RTX3060 6GB GDDR6 Graphics, 15.6",
+    "Price": 41000,
+    "imgUrl": "p69.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 22
+  },
+  {
+    "Id": 70,
+    "Name": "Dell Optiplex 7040 SFF",
+    "Description": "16GB 256GB SSD Core i5-6500 3.2GHz Win10P, Black (Renewed)",
+    "Price": 6000,
+    "imgUrl": "p70.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 22
+  },
+  {
+    "Id": 71,
+    "Name": "NB-HP-DK2052NE",
+    "Description": "Intel® Core™ i7 11370H 11th Generation-1T SSD-NVIdIA® GeForce RTX™ 3050 Ti Laptop GPU (4 GB GDDR6 dedicated)-W11",
+    "Price": 33000,
+    "imgUrl": "p71.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 23
+  },
+  {
+    "Id": 72,
+    "Name": "HP Pavilion Laptop 13-bb0003ne",
+    "Description": "Designed for all day That untethered feeling. The compact HP Pavilion 13 Laptop is easy to bring along and makes your all-day adventures even easier, with long battery life and HP Fast Charge.",
+    "Price": 23000,
+    "imgUrl": "p72.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 23
+  },
+  {
+    "Id": 73,
+    "Name": "HP Probook 450 G9 Laptop",
+    "Description": "12th Intel Core i7-1255U 10-Cores, 8GB RAM, 512GB PCIe NVMe SSD, 15.6  HD (1366 x 768) anti-glare 250 nits, Intel Iris X Graphics, Fingerprint, Dos - Silver",
+    "Price": 30000,
+    "imgUrl": "p73.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 23
+  },
+  {
+    "Id": 74,
+    "Name": "ACER ASPIRE 5",
+    "Description": "CORE I7-1165G7-2.8GHZ- 16GB RAM-1024 SSD- NVIdIA 450 2GB- 15.6FHD DOS",
+    "Price": 25500,
+    "imgUrl": "p74.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 24
+  },
+  {
+    "Id": 75,
+    "Name": "ACER Aspire 3",
+    "Description": "15.6'HD - i3-1005G1-4GB -1T Black 2Y",
+    "Price": 10000,
+    "imgUrl": "p75.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 24
+  },
+  {
+    "Id": 76,
+    "Name": "Acer Chromebook 14",
+    "Description": "Aluminum, 14-inch Full HD, Intel Celeron N3160, 4GB LPDDR3, 32GB, Chrome, CB3-431-C5FM",
+    "Price": 12000,
+    "imgUrl": "p76.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 24
+  },
+  {
+    "Id": 77,
+    "Name": "Cotton Lace Blouse",
+    "Description": "Aluminum, 14-inch Full HD, Intel Celeron N3160, 4GB LPDDR3, 32GB, Chrome, CB3-431-C5FM",
+    "Price": 12000,
+    "imgUrl": "w1.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Id": 78,
+    "Name": "Mom High Waist Shorts",
+    "Description": "Aluminum, 14-inch Full HD, Intel Celeron N3160, 4GB LPDDR3, 32GB, Chrome, CB3-431-C5FM",
+    "Price": 120,
+    "imgUrl": "w2.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Id": 78,
+    "Name": "Mom High Waist Shorts",
+    "Description": "display attribute: apparel display on website material composition: 80% Cotton 20% Polyester Item Category: outerwear",
+    "Price": 520,
+    "imgUrl": "w2.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Id": 79,
+    "Name": "TH Jeans City Backpack",
+    "Description": "display attribute: apparel display on website material composition: 80% Cotton 20% Polyester Item Category: outerwear",
+    "Price": 420,
+    "imgUrl": "w3.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 80,
+    "Name": "Two-Piece Bikini in Print",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 500,
+    "imgUrl": "w4.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 81,
+    "Name": "Women Sports Jacket",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 500,
+    "imgUrl": "w5.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 82,
+    "Name": "Women Colorblock Sneakers",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 560,
+    "imgUrl": "w6.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 6
+  },
+  {
+    "Id": 83,
+    "Name": "Single-breasted Trenchcoat",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 1000,
+    "imgUrl": "w7.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Id": 84,
+    "Name": "Cotton Polo Regular Fitt",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 500,
+    "imgUrl": "w8.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Id": 85,
+    "Name": "Regular Fit",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 550,
+    "imgUrl": "w9.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Id": 86,
+    "Name": "Bikini in Print",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 500,
+    "imgUrl": "w10.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 5
+  },
+  {
+    "Id": 87,
+    "Name": "Pants Regular Fit",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 600,
+    "imgUrl": "w11.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 88,
+    "Name": "Polo Red",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 520,
+    "imgUrl": "w12.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Id": 89,
+    "Name": "Slim Taper Fit Jeans",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 600,
+    "imgUrl": "w13.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 90,
+    "Name": "Fit Jeans",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 540,
+    "imgUrl": "w14.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+
+  {
+    "Id": 91,
+    "Name": "Polo Red",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 590,
+    "imgUrl": "w15.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Id": 92,
+    "Name": "Taper Fit Jeans",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 600,
+    "imgUrl": "w16.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Id": 93,
+    "Name": "Fit Jeans",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 540,
+    "imgUrl": "w17.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+
+  {
+    "Id": 94,
+    "Name": "3-Color Sun Stash Hat",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 700,
+    "imgUrl": "w18.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Id": 95,
+    "Name": "blue Jeans",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 750,
+    "imgUrl": "w19.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Id": 96,
+    "Name": "Fit Jeans",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 540,
+    "imgUrl": "w20.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 6
+  },
+
+  {
+    "Id": 97,
+    "Name": "stain Red dress",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 520,
+    "imgUrl": "w21.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Id": 98,
+    "Name": "stain blouse",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 600,
+    "imgUrl": "w22.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Id": 99,
+    "Name": "men Jeans",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 540,
+    "imgUrl": "w23.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Id": 100,
+    "Name": "men black Shirt",
+    "Description": "All year, keep it clean and classic with this tee from Tommy Hilfiger. T shirt for men with crew neck collar design. Men's t shirt with embroIdered flag logo at sleeve. Tommy Tee with a graphic design on front. Short sleeve tee in soft cotton material.",
+    "Price": 540,
+    "imgUrl": "w24.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  }
+
+]
