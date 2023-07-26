@@ -1,0 +1,54 @@
+img {
+    width: 219px;
+    height: 250px;
+}
+.card {
+  width: 220px;
+  position: relative;
+
+  &:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.2s;
+    transition-timing-function: ease-in-out; 
+  }
+}
+
+/* .wishlist {
+  position: absolute;
+  color: rgb(223, 30, 30);
+  top: 10px;
+  left: 175px;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(241, 234, 234);
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+
+  &:hover {
+    color: red;
+  }
+  &:active {
+    color: red;
+  }
+  &:focus {
+    color: red;
+  }
+} */
+
+.star {
+    color: #f79926;
+  }
+  .button {
+    color:white;
+    background-color:#ec960b;
+    border: none;
+  }
+  .button:hover {
+    color: white;
+    background-color:#de8f0e;
+    border: none;
+  }
+  .button2 {
+    background-color: rgb(230, 226, 226);
+  }

@@ -1,0 +1,106 @@
+<div style="width: 100%; height: 27px;" class=" bg-dark px-4" >
+  <div class="container-fluid py-1">
+    <div class="row justify-content-between" style="font-size: 11px;">
+       <div class="col text-light">
+         <i class="orange bi bi-telephone-outbound me-2" ></i><span style="color: rgba(221, 217, 217, 0.834);"> Support(00)  33 169 7720 </span>
+       </div>
+       <div class="col text-center" style="color: rgba(250, 250, 250, 0.834);">
+           We Wish To Find What You Want 
+       </div>
+       <div class="col text-light">
+         <div class="text-end ">
+          <i class="orange bi bi-geo-alt me-2"></i><span style="color: rgba(221, 217, 217, 0.834);">Order Tracking</span></div>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+<nav *ngIf="navbarVisible" class="navbar navbar-expand-lg ">
+    <div class="container-fluid mx-3">
+      <a class="navbar-brand" style="color: #eca129;"><img src="assets/imgs/logo4.PNG"  style="width: 200px; height: 40px;"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" aria-current="page" [routerLink]="'/shop'" [routerLinkActive]="'orange'" [routerLinkActiveOptions]="{exact:true}" ><i class="orange bi bi-grid me-2"></i> Departments </a>
+           </li>
+          <div style="width: 1px; height: 27px; background-color: rgba(190, 190, 190, 0.827);" class="my-auto mx-2 d-none d-sm-block"></div>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/home'" [routerLinkActive]="'orange'" [routerLinkActiveOptions]="{exact:true}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/shop'" [routerLinkActive]="'orange'" [routerLinkActiveOptions]="{exact:true}">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/about'" [routerLinkActive]="'orange'" [routerLinkActiveOptions]="{exact:true}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/contact'" [routerLinkActive]="'orange'" [routerLinkActiveOptions]="{exact:true}">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>      
+    <div>
+
+      <ng-container *ngIf="(accountService.currentUser$ |async)==null">        
+        <div class="dropdown mx-3">
+          <div class="dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false" style="cursor: pointer;">
+              <i class="me-2 ms-2 bi bi-person-fill"></i>My Account
+            </div>          
+            <ul class="dropdown-menu">
+              <div routerLink="/account/login">
+              <li><a class="account dropdown-item" href="/account/login">Login</a></li>
+            </div>
+            <div routerLink="/account/register">
+              <li><a class="dropdown-item" href="/account/register">Signup</a></li>
+            </div>
+            </ul>
+          </div>
+        </ng-container>
+
+        <ng-container *ngIf="accountService.currentUser$|async as user">
+          <div class="dropdown mx-3">
+            <div class="dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false" style="cursor: pointer;">
+              <span>Hello {{user.displayName}}</span>
+              </div>          
+              <ul class="dropdown-menu dropdown-menu-right">
+                  <li class="py-1">
+                    <a routerLink="/basket" class="dropdown-item">
+                      <li class="fa fa-shopping-cart me-3"></li> View basket
+                    </a>
+                  </li>
+                  <li class="py-1">
+                    <a routerLink="/orders" class="dropdown-item">
+                      <li class="fa fa-history me-3"></li> View orders
+                    </a>
+                  </li>
+                  <div class="dropdown-divider"></div>
+                  <li class="py-1">
+                    <a (click)="accountService.logout()" href="/home" class="dropdown-item">
+                      <li class="fa fa-sign-out me-3"></li> Logout
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </ng-container>
+
+    </div>
+    <div class="row" style="cursor: pointer;" routerLink="/basket">
+    <span class="col-3 ms-2" routerLink="/basket">Cart</span>
+    <span class="col-3">
+      <i class="parent me-5 ms-2 bi bi-cart3" routerLink="/basket">
+     </i>
+     <div routerLink="/basket" class=" rounded-circle d-inline-block p-2 child d-flex justify-content-center align-items-center text-light"
+      *ngIf="(basketService.basketSource$|async) as basket">
+      {{getCount(basket.item)}}
+    </div>
+    </span>
+  </div>
+  </nav>
+
+            
+                     
+

@@ -1,0 +1,13 @@
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+   .button {
+      background-color: #ec960b;
+      color: white;
+
+   }
+   .shadowcss {
+    text-shadow: 4px 4px 4px rgba(156, 155, 155, 0.5);
+    color:rgb(41, 41, 41)
+   }

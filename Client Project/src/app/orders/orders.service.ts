@@ -1,0 +1,24 @@
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { environment } from 'src/environments/environment';
+import { Order } from '../shared/Model/order';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class OrdersService {
+
+  baseUrl=environment.apiUrl;
+  constructor(private http:HttpClient) { }
+
+  getOrderForUser()
+  {
+    return this.http.get<Order[]>(this.baseUrl+'order');
+  }
+
+  getOrderDetails(id:number)
+  {
+    return this.http.get<Order>(this.baseUrl+'order/'+id);
+  }
+  
+}

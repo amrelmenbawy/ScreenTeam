@@ -1,0 +1,42 @@
+[
+  {
+    "ID": 1,
+    "Name": "Men clothes"
+  },
+  {
+    "ID": 2,
+    "Name": "Women clothes"
+  },
+  {
+    "ID": 3,
+    "Name": "KIDs"
+  },
+  {
+    "ID": 4,
+    "Name": "Watches"
+  },
+  {
+    "ID": 5,
+    "Name": "Shoes"
+  },
+  {
+    "ID": 6,
+    "Name": "Electronics"
+  },
+  {
+    "ID": 7,
+    "Name": "Mobiles"
+  },
+  {
+    "ID": 8,
+    "Name": "LabTops"
+  },
+  {
+    "ID": 9,
+    "Name": "Beauty"
+  },
+  {
+    "ID": 10,
+    "Name": "Home Applicants"
+  }
+]

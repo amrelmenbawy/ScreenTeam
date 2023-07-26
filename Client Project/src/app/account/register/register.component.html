@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" >
+  <title>Document</title>
+</head>
+<body>
+  <div style="margin-top: 100px;"></div>
+
+<div class="container  text-align-center justify-content-center mb-5">
+    <div class="row justify-content-center">
+         <div class="col-sm-4 bg-light mt-4 shadow rounded-3">
+            <div class="row py-3 text-center divsign text-light mb-3 mt-4">
+                <strong class="browncolor mb-4"> SIGN UP </strong>
+                 <div class="mx-auto mb-3" style="background-color: #64605a; height: 1px; width: 300px;" ></div>
+            </div>
+            <form class="needs-validation tab-pane" autocomplete="off" [formGroup]="signupForm" (submit)="signupformoperation($event)"  id="signup-tab">
+                <div class="mb-3 my-2" [ngClass]="{'has-error': getusername.invalid && getusername.touched}">
+                  <!-- <label class="form-label" for="displayName"  style="color: rgb(40, 40, 40); font-weight: 500;">Full name</label> -->
+                  <input class="form-control  mb-3" type="text" formControlName="displayName" id="displayName" placeholder="Enter your name" style="height: 40px;" required>
+                  <ng-container *ngIf="getusername.touched">
+                    <div *ngIf="getusername.hasError('required')" class="form-text text-danger">Please enter your name.</div>
+                  </ng-container>
+                  <ng-container *ngIf="getusername.touched">
+                    <div *ngIf="getusername.hasError('minlength')" class="form-text text-danger">Name must contain at least 3 letters</div>
+                  </ng-container>
+                </div>
+                <div class="mb-3 my-2" [ngClass]="{'has-error': getemailsignup.invalid && getemailsignup.touched}">
+                  <!-- <label for="email"  style="color: rgb(40, 40, 40); font-weight: 500;">Email address</label> -->
+                  <input class="form-control mb-3" type="email" formControlName="email" id="email" placeholder="Enter your email" style="height: 40px;" required="">
+                  <ng-container *ngIf="getemailsignup.touched">
+                    <div *ngIf="getemailsignup.hasError('required')" class="form-text text-danger">Please enter your email.</div>
+                  </ng-container>
+                  <ng-container *ngIf="getemailsignup.touched">
+                    <div *ngIf="getemailsignup.hasError('email')" class="form-text text-danger">Please provide a valid email address.</div>
+                  </ng-container>
+                </div>
+                <div class="mb-3 my-2" [ngClass]="{'has-error': getpasswordsignup.invalid && getpasswordsignup.touched}">
+                  <!-- <label class="form-label" for="password" style="color: rgb(40, 40, 40); font-weight: 500;">Password</label> -->
+                  <div class="password-toggle">
+                    <input class="form-control mb-3" formControlName="password" type="password" id="password" required="" placeholder="Enter your password">
+                  </div>
+                  <ng-container *ngIf="getpasswordsignup.touched">
+                    <div *ngIf="getpasswordsignup.hasError('required')" class="form-text text-danger">Password required.</div>
+                  </ng-container>
+                  <ng-container *ngIf="getpasswordsignup.touched">
+                    <div *ngIf="getpasswordsignup.hasError('pattern')" class="form-text text-danger">
+                        Is at least 8 characters long <br>
+                        Contains at least one uppercase letter (A-Z) and
+                        lowercase letter (a-z) <br>
+                        digit (0-9) and
+                        special character <br>
+                    </div>
+                  </ng-container>
+                </div>
+                <!-- <div class="mb-3 my-2" [ngClass]="{'has-error': getpasswordsignup.invalid && getpasswordsignup.touched}">
+                  <label class="form-label" for="confirmpasswordsignup"  style="color: rgb(40, 40, 40); font-weight: 500;">Confirm password</label>
+                  <div class="password-toggle">
+                    <input class="form-control" type="password" id="confirmpasswordsignup" style="height: 40px;" required="">
+                  </div>
+                  <ng-container *ngIf="getconfirmpasswordsignup.touched">
+                    <div *ngIf="getconfirmpasswordsignup.hasError('required')" class="form-text text-danger">confirm Password required.</div>
+                  </ng-container>
+                  <ng-container *ngIf="getconfirmpasswordsignup.touched">
+                    <div *ngIf="getconfirmpasswordsignup == getpasswordsignup" class="form-text text-danger">Password and confirm password not the same</div>
+                  </ng-container>
+                </div> -->
+                <div class="mb-3 my-2 d-flex flex-wrap justify-content-between">
+                  <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="si-remember">
+                    <label class="form-check-label" style="color: rgb(31, 31, 31);" for="si-remember">Remember me</label>
+                  </div>
+                </div>
+                <button [disabled]="signupForm.invalid" class="button btn btn-shadow w-100 my-3" type="submit">Sign up</button>
+              </form>
+           </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" >
+  <title>Document</title>
+</head>
+<body>
+  <!-- title -->
+<div style="margin-top: 100px;"></div>
+<div class="bg-light mt-5 py-4">
+  <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
+    <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb flex-lg-nowrap justify-content-center justify-content-lg-start">
+          <li class="breadcrumb-item"><a class="home-link text-nowrap" href="/home" style="text-decoration: none; color:  #212529;"><i class="bi bi-house-door mx-2"></i>Home</a></li>
+          <li class="breadcrumb-item text-nowrap active" aria-current="page" style="color: #ec960b;;">Shop</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
+      <h1 class="h3 mb-0">Shopping</h1>
+    </div>
+  </div>
+</div> <!-- end of title -->
+
+<div class="container ">
+ <div class="row mt-3">
+<!-- start of toggleable sidebar -->
+<div class="col-md-3 px-1 d-md-flex flex-md-column" >
+  <div class="container py-3 flex-fill">
+    <div class="row">
+      <div class="col-12">
+      </div>
+      <div class="col-12">
+        <!-- search -->
+        <div class="mt-5 py-1">
+          <input class="form-control rounded-3" style="height: 30px;" placeholder="Search" (keyup.enter)="onSearch()" #search/>
+          <div class="justify-content-end text-center">
+            <div class="row mt-2"></div>
+            <button class="btncolor col-sm-5 btn btn-success" style="height:30px; width: 47%; margin-right: 10px; padding-top: 1px;" (click)="onSearch()">search</button>
+            <button class="btncolor col-sm-5 btn btn-success" style="height:30px;width: 47%; padding-top: 1px;" (click)="onReset()">reset</button>
+          </div>
+        </div>
+        <!-- end of search -->
+
+        <!-- types -->
+        <ul class="list-unstyled ps-0">
+          <li class="mb-1">
+            <button class="button btn btn-toggle d-inline-flex align-items-center rounded border-0" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+              <span class="fs-5 fw-semibold pb-2" style="color: #ec960b;">Category</span>
+            </button>
+            <div class="collapse show" id="home-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 px-3 small">
+                <a  class="text-decoration-none text-dark" style="cursor: pointer;"><li
+                  *ngFor="let type of types"
+                  [ngClass]="{'active-type':  type.id === shopParams.typeId}"
+                  [value]="type.id"
+                  [class.active]="type.id===shopParams.typeId"
+                  (click)="onTypeSelected(type.id)" class="px-3">
+                  {{type.name}}
+                </li></a>
+
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button class="button btn btn-toggle d-inline-flex align-items-center rounded border-0" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="true">
+              <span class="fs-5 fw-semibold pb-2" style="color: #ec960b;">Brands</span>
+            </button>
+            <div>
+
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 px-3 small">
+                <a class="text-decoration-none text-dark" style="cursor: pointer;"><li *ngFor="let brand of brands"
+                 [ngClass]="{'active-type':  brand.id === shopParams.brandId}"
+                 [class.active]="brand.id === shopParams.brandId"
+                 [value]="brand.id"
+                 (click)="onBrandSelected(brand.id)" class="px-3">{{brand.name}}
+                </li></a>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of toggleable sidebar -->
+
+
+
+
+<!-- start of content -->
+<div class="col-sm-9 mt-4">
+
+  <div class="row sort mb-2 mx-2 px-2" style="justify-content: space-between;">
+    <!-- result item -->
+    <div class="col-sm-4">
+      <app-paging-header
+        [totalCount]="totalCount"
+        [pageNumber]="shopParams.pageNumber"
+        [pageSize]="shopParams.pageSize"
+      >
+      </app-paging-header>
+    </div>
+    <!-- sort -->
+    <div class="col-sm-4">
+      <div class="row">
+        <span class="col-sm-4 text-muted mt-1" style="font-size: small;">SORT BY:</span>
+        <div class="col-sm-8">
+          <select class="form-select form-select-sm" style="font-size: small;" aria-label="Bulk actions" (change)="onSortSelected($event)">
+            <option *ngFor="let option of sortOptions" [value]="option.value">{{option.name}}</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- end of header -->
+      <div class="row">
+        <div class="col-sm-12 col-md-5 col-lg-3 mt-2 mb-3 " *ngFor="let product of products" >
+         <app-product-item [product]="product"></app-product-item>
+      </div>
+      <div class="d-flex justify-content-center mt-4" *ngIf="totalCount>0">
+       <app-pager
+       [totalCount]="totalCount"
+       [pageSize]="shopParams.pageSize"
+       (pageChanged)="onPageChanged($event)"
+       >
+
+       </app-pager>
+      </div>
+</div>
+<!-- end of content page -->
+</div> <!-- end of content -->
+
+</div> <!-- end of row -->
+</div> <!-- end of container -->
+
+</body>
+</html>

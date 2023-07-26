@@ -1,0 +1,33 @@
+.nav-link 
+{
+    background-color: #ece9e9;
+    border-radius: 0%;
+    border: none;
+    color: #222222;
+
+    &:focus {
+        background-color: #ec960b;
+        border-radius: 0%;
+        border: none;
+        color: #ffffff;
+    }
+    &:active {
+        background-color: #ec960b;
+        border-radius: 0%;
+        border: none;
+        color: #ffffff;
+    }
+    &:hover {
+        background-color: #ec960b;
+        border-radius: 0%;
+        border: none;
+        color: #ffffff;
+    }
+    &:visited {
+        background-color: #ec960b;
+        border-radius: 0%;
+        border: none;
+        color: #ffffff;
+    }
+}
+

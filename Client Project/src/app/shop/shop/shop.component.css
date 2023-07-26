@@ -1,0 +1,40 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .button {
+    position: relative;
+    padding-left: 20px; /* adjust this value to match the width of the caret arrow */
+  }
+  
+  .button::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    /* transform: translateY(-50%); */
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 5px solid rgb(113, 113, 113);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+  }
+
+  .active-type {
+    background-color: #f1eeeeba;
+  }
+
+  .btncolor{
+   color:#ec960b;
+   border-color:#ec960b;
+   background-color: rgb(255, 255, 255);
+  }
+  .btncolor:hover{
+    color:#ffffff;
+    border-color:#ec960b;
+    background-color: #ec960b;
+   }

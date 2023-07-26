@@ -1,0 +1,44 @@
+<div style="margin-top: 70px;"></div>
+
+<!-- title -->
+<div class="bg-light py-4">
+  <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
+    <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb flex-lg-nowrap justify-content-center justify-content-lg-start">
+          <li class="breadcrumb-item"><a class="home-link text-nowrap" href="/home" style="text-decoration: none; color:  #212529;"><i class="bi bi-house-door mx-2"></i>Home</a></li>
+          <li class="breadcrumb-item"><a class="home-link text-nowrap" href="/shop" style="text-decoration: none; color:  #212529;">Shop</a></li>
+          <li class="breadcrumb-item text-nowrap active" aria-current="page" style="color: #ec960b;;">Orders</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
+      <h1 class="h3 mb-0">Orders</h1>
+    </div>
+  </div>
+</div> <!-- end of title -->
+
+<div class="container mt-5 mb-5">
+  <div class="row">
+     <div class="col-12">
+       <table class="table table-hover" style="cursor:pointer;">
+          <thead class="thead-light">
+            <tr>
+                <th class="orange">Order</th>
+                <th class="orange">Date</th>
+                <th class="orange">Total</th>
+                <th class="orange">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let order of orders" routerLink="/orders/{{order.id}}">
+                 <td><span class="text-muted">#</span> {{order.id}}</td>
+                 <td>{{order.orderDate | date: 'medium'}}</td>
+                 <td>{{order.total| currency}}</td>
+                 <td>{{order.status}}</td>
+              </tr>
+          </tbody>
+       </table>
+     </div>
+  </div>
+</div>

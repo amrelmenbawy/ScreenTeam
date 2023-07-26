@@ -1,0 +1,19 @@
+.home-bi {
+    color: #ec960b; 
+   }
+   a {
+       text-decoration: none;
+   }
+   .button {
+       background-color: #ec960b;
+       border: #ec960b;
+       color: white;
+       &:hover {
+           background-color: #d28a15;
+           border: #d28a15;
+       }
+   }
+
+   body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }

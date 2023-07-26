@@ -1,0 +1,61 @@
+
+.account {
+  color: #5b5a5a;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 16px;
+
+
+  &:hover{
+  color: #ec960b ;
+  font-weight: bolder;
+  box-shadow: none;
+  border: none;
+  font-size: 16px;
+   }
+
+   &:active{
+    color: #ec960b !important;
+    font-weight: bolder;
+    border-bottom: 2px solid #ec960b;
+    border-top: none;
+    font-size: 16px;
+     }
+     &:focus {
+      font-weight: bolder;
+      color: #ec960b;
+      box-shadow: none;
+      border: none;
+      border-bottom: 2px solid #ec960b;
+      font-size: 16px;
+     }
+
+}
+
+.has-error input {
+  border-color: #DC3545;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+    background-color: #ec960b;
+    color: #fffefe;
+    border: #ec960b;
+
+    &:hover {
+      color: #efeeee;
+      background-color: #d28a15;
+      border: #d28a15;
+    }
+  }
+
+.browncolor {
+  color: #64605a; 
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

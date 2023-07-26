@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <title>Document</title>
+</head>
+<body>
+  <div style="margin-top: 100px;"></div>
+<!-- title -->
+<div class="bg-light py-4">
+    <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
+      <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb flex-lg-nowrap justify-content-center justify-content-lg-start">
+            <li class="breadcrumb-item"><a class="home-link text-nowrap" href="/shop/shop" style="text-decoration: none; color:  #212529;">Shop</a></li>
+            <li class="breadcrumb-item"><a class="home-link text-nowrap" href="/basket/basket" style="text-decoration: none; color:  #212529;">Basket</a></li>
+            <li class="breadcrumb-item text-nowrap active" aria-current="page" style="color: #ec960b;;">checkout</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
+        <h1 class="h3 mb-0">Check-out</h1>
+      </div>
+    </div>
+  </div> <!-- end of title -->
+
+<div class="container ">
+   <div class="row">
+       <div class="col-8 mt-3">
+           <app-stepper  #appStepper>
+            <cdk-step [label]="'Address'">
+              <app-checkout-address [checkoutForm]="checkoutForm"></app-checkout-address>
+            </cdk-step>
+            <cdk-step [label]="'Delivery'">
+                <app-checkout-delivery [checkoutForm]="checkoutForm"></app-checkout-delivery>
+             </cdk-step>
+             <cdk-step [label]="'Review'">
+                <app-checkout-review [appStepper]="appStepper"></app-checkout-review>
+             </cdk-step>
+             <cdk-step [label]="'Payment'">
+                <app-checkout-payment  [checkoutForm]="checkoutForm"></app-checkout-payment>
+             </cdk-step>
+           </app-stepper>
+       </div>
+       <div class="col-4 mt-2">
+           <app-order-totals></app-order-totals>
+       </div>
+   </div>
+</div>
+
+</body>
+</html>

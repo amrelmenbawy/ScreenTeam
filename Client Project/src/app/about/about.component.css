@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.button {
+    background-color: #ec960b;
+    border: #ec960b;
+    color: white;
+    &:hover {
+        background-color: #d28a15;
+        border: #d28a15;
+    }
+}
+.button2 {
+    background-color: #f8b952f9;
+    border: #f8b952f9;
+    color: white;
+    &:hover {
+        background-color: #d28a15;
+        border: #d28a15;
+    }
+}
+.link {
+    text-decoration: none;
+    color: white;
+}

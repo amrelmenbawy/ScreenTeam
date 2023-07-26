@@ -1,0 +1,13 @@
+.image-in-cart {
+    width: 150px;
+    height:150px
+}
+
+.button  {
+    background-color: #ec960b;
+    color: white;
+
+    &:hover {
+        background-color: #d08a19;
+    }
+}

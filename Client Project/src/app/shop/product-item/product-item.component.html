@@ -1,0 +1,21 @@
+<div class="card shadow" *ngIf="product">
+    <img [src]="product.imgUrl" class="card-img-top">
+    <div class="card-body">
+      <div class="card-text">{{product.name}}</div>
+      <div class="text-muted">{{product.productType}}/{{product.productBrand}}</div>
+      <div class="mt-1">{{product.price |currency}}</div>
+      <!-- <div class="mt-1">quantity</div> -->
+      <div class="row mt-1">
+        <div class="col">
+          <i class="star bi bi-star-fill"></i><i class="star bi bi-star-fill"></i><i class="star bi bi-star-fill"></i><i class="star bi bi-star-fill"></i><i class="star bi bi-star"></i>
+        </div>
+
+          <div class="row mt-3 text-center mx-auto">
+          <button (click)="addItemToBasket()" class="button btn " style="height:30px; padding-top:2px">Add To Cart</button> 
+        </div>
+        <div class="row mt-1 text-center mx-auto">
+          <button routerLink="/shop/{{product.id}}" class="button2 btn " style="height:30px; padding-top:2px"> <i class="bi bi-eye" style="font-size: smaller;"></i> view</button> 
+        </div>
+      </div>
+    </div>
+  </div>
