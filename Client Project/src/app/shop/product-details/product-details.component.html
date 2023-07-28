@@ -7,7 +7,7 @@
 </head>
 <body *ngIf="product">
     <div class="mt-30 bg-dark  text-light d-flex flex-column justify-content-center align-items-center" >
-        <div class="row page-title py-4 text-center"> 
+        <div class="row page-title py-4 text-center">
 
            <!-- title  -->
             <div>
@@ -24,7 +24,7 @@
                 <div class="order-lg-1 pe-lg-4 text-center text-lg-start mx-5">
                   <h1 class="h3 text-light mb-0">{{product.productType}} {{product.name}}</h1>
                 </div>
-              </div> 
+              </div>
             </div>
         </div>
            <!-- end of title -->
@@ -41,18 +41,18 @@
               <!-- right part of item -->
               <div class="px-4 col-sm-12 col-md-12 col-lg-6">
                <div style="font-size: small; text-shadow: 200px;"><i class="star bi bi-star-fill"></i><i class="star bi bi-star-fill"></i><i class="star bi bi-star-fill"></i><i class="star bi bi-star-fill"></i><i class="star bi bi-star"></i><span class="mx-2">74 Reviews</span></div>
-               <div class="mt-2"><strong>{{product.price |currency}}</strong><span style="font-size: smaller;">00 Price</span></div>  
+               <div class="mt-2"><strong>{{product.price |currency}}</strong><span style="font-size: smaller;">00 Price</span></div>
                <div class="mt-2" style="font-size: small;"><strong>Color: </strong><span class="text-muted">Red/Dark/blue/White</span></div>
                <!-- size bar -->
                <div class="mt-4">
                  <div style="font-size: small;" class="d-flex justify-content-between mb-2">
                     <strong class="mx-1">Size:</strong>
                     <span class="link ms-auto mx-1" (click)="openModal()"><i class="bi bi-rulers mx-1"></i> Size guide</span>
-                    
+
                               <!-- add -->
           <div id="myModal" class="modal" [ngStyle]="{'display': showModal ? 'block' : 'none'}">
             <div class="modal-content">
-          
+
                 <div class="modal-header bg-light" style="height:57px ;">
                   <ul class="nav nav-tabs card-header-tabs" role="tablist" style="height: 100%;">
                     <li class="nav-item" role="presentation"><a class="account nav-link fw-medium active"  href="#mens"  data-bs-toggle="tab" role="tab" aria-controls="mens" aria-selected="true">Men's sizes</a></li>
@@ -225,7 +225,7 @@
                     </div>
                   </div>
                 </div>
-            
+
             </div>
           </div>
           <!-- end of add -->
@@ -235,7 +235,7 @@
 
                <form class="mb-grid-gutter" method="post">
                 <div class="mb-3">
-                 
+
                   <select class="form-select shadow" required="" id="product-size">
                     <option disabled selected>Select size</option>
                     <option value="xs">XS</option>
@@ -256,7 +256,7 @@
                   <i class="bi bi-dash-circle-fill text-muted" style="font-size: x-large !important;" (click)="decremintQuantity()"></i>
                     <span class="mx-1"> {{quantity}} </span>
                   <i class="bi bi-plus-circle-fill text-muted" (click)="incremintQuantity()" style="font-size: x-large !important;"></i>
-                  <button [disabled]="quantity===quantityInBasket" (click)="updateBasket()" class="button btn btn-primary shadow d-block w-100 mx-2" type="submit">
+                  <button [disabled]="quantity===quantityInBasket || quantity==0" (click)="updateBasket()" class="button btn btn-primary shadow d-block w-100 mx-2" type="submit">
                     Add to Cart</button>
                 </div>
               </form>
@@ -270,7 +270,7 @@
                         <div>
                             <ul class="mx-1" style="font-size: small;">
                                <li>Describtion: {{product.description}}</li>
-                               <li>{{product.productType}}/{{product.productBrand}}/{{product.name}}</li> 
+                               <li>{{product.productType}}/{{product.productBrand}}/{{product.name}}</li>
                             </ul>
                         </div>
                        </li>
@@ -287,7 +287,7 @@
                                      <li><span class="fw-semibold text-dark">Local Shipping</span> <span class="fs-sm text-muted text-center mx-3">one month</span><span class="ms-4" style="font-size: small;">$10.00</span></li>
                                   </ul>
                                  </div>
-                                 
+
                               </div>
                         </div>
                       </li>
@@ -313,7 +313,7 @@
               <!--end of card  -->
             </div>
             </div>
-              <!-- end of item -->    
+              <!-- end of item -->
            </div>
 
           <!-- start content page -->
@@ -346,7 +346,7 @@
           </div>
         </div>
       <!-- end under item -->
-      
+
       <!-- where made in -->
       <div class="container mx-5 px-5 mt-3">
       <div class="row align-items-center py-4 py-lg-5 px-5">
@@ -375,7 +375,7 @@
       </div>
     </div>
   <!-- end of where made it  -->
-  
+
   <!-- review -->
   <div class="container px-5 mt-4">
   <div class="row pb-3">

@@ -5,6 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { BreadcrumbService } from 'xng-breadcrumb';
 import { BasketService } from 'src/app/basket/basket.service';
 import { take } from 'rxjs';
+import {ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-product-details',
@@ -12,7 +13,7 @@ import { take } from 'rxjs';
   styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent implements OnInit {
-  
+
   showModal = false;
 
   product?:Iproduct;
@@ -21,8 +22,9 @@ export class ProductDetailsComponent implements OnInit {
  constructor(
   private basketService:BasketService
   ,private breadCrumb:BreadcrumbService,
-  private shopService:ShopService 
-  , private activatedRoute:ActivatedRoute){}
+  private shopService:ShopService
+  , private activatedRoute:ActivatedRoute,
+  public toster : ToastrService){}
   ngOnInit(): void {
     this.loadProduct()
   }
@@ -30,7 +32,9 @@ export class ProductDetailsComponent implements OnInit {
     this.quantity++;
   }
   decremintQuantity(){
+    if(this.quantity>0){
     this.quantity--;
+    }
   }
   updateBasket(){
     if(this.product){
@@ -39,11 +43,15 @@ export class ProductDetailsComponent implements OnInit {
         const itemToAdd=this.quantity-this.quantityInBasket;
         this.quantityInBasket+=itemToAdd;
         this.basketService.addItemToBasket(this.product,itemToAdd)
+        this.toster.success("Added")
+
       }
       else{
         const itemsToRemove =this.quantityInBasket-this.quantity
         this.quantityInBasket-=itemsToRemove;
         this.basketService.removeItemFromBasket(this.product.id,itemsToRemove)
+        this.toster.success("Removed")
+
       }
     }
   }
@@ -62,10 +70,10 @@ export class ProductDetailsComponent implements OnInit {
             }
           }
         })
-      
+
       },
       error:error=>console.log(error)
-      
+
     })
   }
 
@@ -77,7 +85,7 @@ export class ProductDetailsComponent implements OnInit {
   openModal() {
     this.showModal = true;
   }
-  
+
   closeModal() {
     this.showModal = false;
   }
