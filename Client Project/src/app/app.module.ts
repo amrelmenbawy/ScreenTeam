@@ -29,7 +29,7 @@ import { FooterComponent } from './footer/footer.component'
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    ToastrModule.forRoot(),
+    ToastrModule.forRoot({timeOut:3000}),
     SharedModule,
     BrowserAnimationsModule,
     FormsModule,

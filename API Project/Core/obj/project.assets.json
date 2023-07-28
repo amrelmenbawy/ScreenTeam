@@ -5887,11 +5887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\0\\API Project\\Core\\Core.csproj",
+      "projectUniqueName": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\API Project\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "E:\\0\\API Project\\Core\\Core.csproj",
+      "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\API Project\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\NV_User\\.nuget\\packages\\",
-      "outputPath": "E:\\0\\API Project\\Core\\obj\\",
+      "outputPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\API Project\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

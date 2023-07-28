@@ -8657,11 +8657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\0\\API Project\\Persistance\\Persistance.csproj",
+      "projectUniqueName": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\API Project\\Persistance\\Persistance.csproj",
       "projectName": "Persistance",
-      "projectPath": "E:\\0\\API Project\\Persistance\\Persistance.csproj",
+      "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\API Project\\Persistance\\Persistance.csproj",
       "packagesPath": "C:\\Users\\NV_User\\.nuget\\packages\\",
-      "outputPath": "E:\\0\\API Project\\Persistance\\obj\\",
+      "outputPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\API Project\\Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8683,8 +8683,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\0\\API Project\\Core\\Core.csproj": {
-              "projectPath": "E:\\0\\API Project\\Core\\Core.csproj"
+            "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\API Project\\Core\\Core.csproj": {
+              "projectPath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\API Project\\Core\\Core.csproj"
             }
           }
         }

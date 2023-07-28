@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3wO6NSt2sZfDr0+b3TRf77ozeKGwEsdxq3cc4151gKySRhzfgjuYjyQAaE/dftB4bqXyOaD+ztklEY6qu6QMw==",
+  "dgSpecHash": "raxSB3LnkxzzQ3YSneXxzHSrJZHAT/KtjZ9atEH0lSxKC+nB4mThG2Fq4lkLna+QvgXTcU5jLAo785YpT3IdfA==",
   "success": true,
-  "projectFilePath": "E:\\0\\API Project\\Core\\Core.csproj",
+  "projectFilePath": "F:\\0My-Partner\\Remote Repository\\ScreenTeam\\API Project\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NV_User\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\NV_User\\.nuget\\packages\\fluentnhibernate\\3.2.1\\fluentnhibernate.3.2.1.nupkg.sha512",

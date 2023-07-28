@@ -1,3 +1,4 @@
+import { ToastrService } from 'ngx-toastr';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { AccountService } from '../account.service';
@@ -9,8 +10,8 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  
-   constructor(private accountService:AccountService,private router:Router, private activatedRoute:ActivatedRoute) { 
+
+   constructor(private accountService:AccountService,private router:Router, private activatedRoute:ActivatedRoute ,public toster:ToastrService ) {
    this.returnUrl=this.activatedRoute.snapshot.queryParams['returnUrl'] || '/shop';
    }
   // ngOnInit(): void {
@@ -20,7 +21,7 @@ export class LoginComponent {
   // }
    returnUrl:string="";
 
-  siginForm = new FormGroup({   
+  siginForm = new FormGroup({
     email: new FormControl('',[Validators.required,Validators.email]),
     password: new FormControl('',[Validators.required])
   })
@@ -31,7 +32,13 @@ export class LoginComponent {
       console.log('Form submitted:', this.siginForm.value);
       // Add your code here to handle form submission
       this.accountService.login(this.siginForm.value).subscribe({
-      next:user=>this.router.navigateByUrl(this.returnUrl)
+      next:user=>{
+        this.router.navigateByUrl(this.returnUrl);
+        this.toster.success("Welcome");
+      },
+      error:()=>{
+        this.toster.error("your Cardinalities are fault !")
+      }
       })
       // this.siginForm.reset(); // Reset the form's values
     } else {
@@ -46,5 +53,5 @@ export class LoginComponent {
   get getpassword() {
     return this.siginForm.controls['password'];
   }
-  
+
 }

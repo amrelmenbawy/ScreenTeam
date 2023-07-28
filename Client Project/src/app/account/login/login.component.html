@@ -36,7 +36,7 @@
                 <ng-container *ngIf="getpassword.touched">
                   <div *ngIf="getpassword.hasError('password')" class="form-text text-danger">Password must be at least 8 characters long and contain at least one letter and one digit.</div>
                 </ng-container>
-            
+
               </div>
             </div>
             <div class="mb-3 my-2 d-flex flex-wrap justify-content-between mt-4 mb-4">
@@ -46,6 +46,10 @@
               </div><a class="fs-sm" href="#" style="color:#ec960b; text-decoration: none;">Forgot password?</a>
             </div>
             <button [disabled]="siginForm.invalid" class="button btn btn-shadow w-100 my-3" type="submit">Sign in</button>
+            <div class="mb-5">
+              <p class="mb-0">Don't have an account? <a [routerLink]="['/account/register']" class="my-3">Sign Up</a>
+              </p>
+            </div>
           </form>
         </div>
     </div>

@@ -70,3 +70,15 @@ E:\0\API Project\Core\obj\Debug\net7.0\Core.dll
 E:\0\API Project\Core\obj\Debug\net7.0\refint\Core.dll
 E:\0\API Project\Core\obj\Debug\net7.0\Core.pdb
 E:\0\API Project\Core\obj\Debug\net7.0\ref\Core.dll
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\bin\Debug\net7.0\Core.deps.json
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\bin\Debug\net7.0\Core.dll
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\bin\Debug\net7.0\Core.pdb
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\obj\Debug\net7.0\Core.dll
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\obj\Debug\net7.0\refint\Core.dll
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\obj\Debug\net7.0\Core.pdb
+F:\0My-Partner\Remote Repository\ScreenTeam\API Project\Core\obj\Debug\net7.0\ref\Core.dll
